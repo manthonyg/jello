@@ -1,12 +1,12 @@
-import React from "react";
-import { RecoilRoot } from "recoil";
-import Board from "./pages/Board";
+import logo from "./logo.svg";
+import "./App.css";
+import Boardcard from "./components/Boardcard";
 
 function App() {
   return (
-    <RecoilRoot>
-      <Board />
-    </RecoilRoot>
+    <>
+      <Boardcard />
+    </>
   );
 }
 
