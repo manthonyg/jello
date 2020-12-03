@@ -1,5 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
 const CardButton = styled.button`
   width: 100%;
@@ -22,8 +22,6 @@ const CardButton = styled.button`
 `;
 
 function Button(props) {
-    return (
-        <CardButton>{ props.value }</CardButton>
-    )
+  return <CardButton {...props}>{props.value}</CardButton>;
 }
-export default Button
+export default Button;

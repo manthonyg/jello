@@ -1,12 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Boardcard from "./components/Boardcard";
-
+import { RecoilRoot } from "recoil";
+import Board from "./pages/Board";
 function App() {
   return (
-    <>
-      <Boardcard />
-    </>
+    <RecoilRoot>
+      <Board />
+    </RecoilRoot>
   );
 }
 
